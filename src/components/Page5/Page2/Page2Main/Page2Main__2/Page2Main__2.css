@@ -1,0 +1,79 @@
+.page2Main2 {
+    margin: 23px 0px 52px;
+}
+
+.section1__box1 {
+    display: grid;
+    grid-gap: 50px;
+    align-items: center;
+    grid-template-columns: repeat(2, auto);
+}
+
+.section1Box1Img {
+    width: 600px;
+    height: 459px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section1Box1Img1{
+
+    background-image: url(https://s3-alpha-sig.figma.com/img/f677/cf42/939ccf614e48cdf73bb7df33cb70ef93?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bxItR8B35ILLJ-6HWg3~NBfQdmCxYFP2k50a1qkEANDEuwyHW3-xbURmEiw-Mw8qk8hbEjDUaYuuybrx7bEf1PraKyJDwButrX3pIfdDQ06Ss5X1whOdlw~EgSQMHcAqhahZ~8eXq4rBHlV3JIXls-trAA3wFw28~8Tgs-BXuN-O~35sb2YKqSN0ptjiKHqaaESybtdXwsThBqqo~WXO-UosYLUetfzgoSa-ZsrSRDm3yTYP4i60qPDb7LbLlis7TyIdWfY~0t0AzJAbdbCSF-CnFcMQQ1rMflGosApZemSsoJrgkbAFKORu3najL0EicKWts~VqID-xC5B6JbHUoA__);
+
+}
+
+.section1Box1Img2 {
+
+    background-image: url(https://s3-alpha-sig.figma.com/img/5895/0ea0/9fb8264fdaa614106ba2dafe9b43b92c?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kIq6WdWGMwuf~apg8yx27fcQhr6sYBVkl7H0RpqOAme0nxUglCeQarhfXY1R61K8R4PenKPqiyL4Ho9kFNVmJceY2Kwhv113QbsRjR1piMVuc~OXsU04wKEq~uFiimcN-Yy4n-jlrKF2blipMvNow32gqafg4xiS081~pb0WiD2pKy-5MXUWcipWoWhwA6mHo5VHW28qY9iwndnGJ9GMHIVZ11CE5njOq1uE~8UFSzoqmx1ATKeuGummRdppo56bhhHH80ITfkdnmjo0kRcd4HVtydC9-5bLq93iVstmuPMkzdnoUO0JwF8Oxc2sXRyQ6Gt2dP1veDfgdgUxe1RhJw__);
+}
+
+
+
+.section1Box1Img__btn {
+    display: flex;
+    justify-content: center;
+    font-family: "Anek Odia";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 35% auto;
+    color: #FFFFFF;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFFB2;
+    display: none;
+}
+
+.section1Box1Img:hover .section1Box1Img__btn {
+    display: flex;
+}
+
+.section1Box1__title {
+    font-family: "Anek Odia";
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 117.6px;
+    color: #3B3B3B;
+}
+
+.section1Box1__title span {
+    color: #1AD079;
+}
+
+.section1Box1__inner,
+.section1Box1__text {
+    font-family: Anek Odia;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #169541;
+}
+
+.section1Box1__text {
+    padding-left: 20px;
+    color: #393C3A;
+    font-size: 18px;
+}

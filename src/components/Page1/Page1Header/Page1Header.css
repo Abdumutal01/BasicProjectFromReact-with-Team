@@ -1,0 +1,41 @@
+.page1__smallSection h1 {
+    text-align: center;
+}
+
+.page1__smallSection {
+    background-color: #1c4e2d;
+    color: #fff;
+    padding: 20px;
+}
+
+.hero__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hero__box {
+    display: flex;
+    align-items: center;
+    width: 23%;
+    gap: 20px;
+}
+
+.hero__box span {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero__box img {
+    width: 70px;
+    background-color: #169541;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.hero__box h4 {
+    color: #169541;
+}

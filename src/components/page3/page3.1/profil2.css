@@ -1,0 +1,88 @@
+.profil2__main__container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.profil2__general2__general {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1__line12 {
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.profil2__part2 {
+    width: 55%;
+    border: 2px solid rgb(182, 178, 178);
+    border-radius: 20px;
+}
+
+.title {
+    color: gray;
+    text-align: center;
+}
+
+.inp {
+    margin-top: 15px;
+    outline: none;
+    font-weight: 700;
+    padding: 10px;
+    background-color: rgb(217, 231, 243);
+    border: none;
+    border-radius: 6px;
+    height: 45px;
+    width: 570px;
+    margin-left: 100px;
+}
+
+.btn__general {
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: none;
+    background-color: #1AD079;
+    color: white;
+}
+
+.hehe__general {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp__general {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: -0px;
+    display: flex;
+}
+
+.inp__general input {
+    height: 50px;
+}
+
+.settingLink {
+    position: relative;
+}
+.settingImg{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: -60px;
+    right: -90px;
+}

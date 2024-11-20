@@ -1,0 +1,112 @@
+.signUp {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../../assets/img/signUpBgImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 94px 0px 184px;
+    /* height: 100vh; */
+}
+
+.signUp__general {
+    max-width: 1101px;
+    border-radius: 20px;
+    /* padding-top: 84px; */
+    padding: 12px 59px 80px;
+    background: #169541;
+
+}
+
+.singUp__title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid silver;
+    color: #FFFFFF;
+}
+
+.signUp__formInputs {
+    display: grid;
+    grid-gap: 25px;
+    margin-top: 53px;
+
+    grid-template-columns: repeat(2, 50%);
+}
+
+.signUp__input::placeholder {
+    color: #FFFFFF66;
+
+}
+
+.signUp__input {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 15px 24px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #FFFFFFDE;
+}
+
+.signUp__text {
+    font-family: "Anek Odia";
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.signUp__link {
+    color: #FFCB11;
+}
+
+.signUp__submit {
+    width: 333.73px;
+    color: #FFFFFF;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 55px;
+    padding: 14px 20px;
+    text-align: center;
+    line-height: 50.4px;
+    border-radius: 20px;
+    letter-spacing: 0.03em;
+    justify-content: center;
+    font-family: " Anek Odia";
+    background-color: #1AD079;
+    box-shadow: 1px 1px 27.9px 0px #FFFDFD40;
+}
+
+.passBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 10px; */
+    border-radius: 10px;
+    border: 2px solid #FFFFFFDE;
+    padding-right: 20px;
+}
+.passBoxInput{
+    border: none;
+}
+.passBox i{
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.passBox i:hover,
+.passBox i:active,
+.passBox i:focus{
+    color: #FFCB11;
+}

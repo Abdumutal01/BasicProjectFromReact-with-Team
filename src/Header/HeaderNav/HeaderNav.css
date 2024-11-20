@@ -1,0 +1,75 @@
+.header__navBox {
+    background-color: #169541;
+    padding: 0px 70px;
+}
+
+.nav,
+.nav__list,
+.nav__userDiv,
+.nav__balBox,
+.nav__userBox {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    font-family: "Inter";
+    justify-content: space-between;
+}
+
+.nav__list {
+    gap: 25px;
+}
+
+.nav__links {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 20px;
+}
+
+
+.nav__balBox {
+    cursor: pointer;
+    position: relative;
+}
+
+.nav__balBox i {
+    font-size: 35px;
+    color: #F7E249;
+}
+
+.nav__balNum {
+    position: absolute;
+    right: -4px;
+    top: -2px;
+    padding: 2px 8px;
+    font-size: 12px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: #FC476E;
+}
+
+.nav__userBox {
+    gap: 5px;
+}
+
+.nav__userBox {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 4px 24px;
+    border-radius: 20px;
+    background-color: #D9D9D966;
+}
+
+.nav__userName {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    font-family: "Anek Odia";
+}
+
+.nav__userImg {
+    width: 46px;
+}

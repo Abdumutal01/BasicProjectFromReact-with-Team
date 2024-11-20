@@ -1,0 +1,117 @@
+.profil1__main__container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.profil1__general__general {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profil1__part1 {
+    width: 40%;
+    border: 2px solid rgb(206, 202, 202);
+    border-radius: 20px;
+}
+
+.part1__items {
+    width: 90%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.general__text {
+    padding-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.weather {
+    padding-top: 50px;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profil1__part2 {
+    width: 58%;
+}
+
+.part2__line1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.for__imgs {
+    display: flex;
+    gap: 10px;
+}
+
+.part2__line2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part2__line3 {
+    width: 100%;
+    display: flex;
+    gap: 70px;
+}
+
+.profil1__general2 {
+    padding-top: 100px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 200px;
+}
+
+.part1__line1 {
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.part2__imgs__general {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.small__line {
+    padding-top: 5px;
+    display: flex;
+    gap: 15px;
+}
+
+.last {
+    text-align: center;
+    padding-top: 50px;
+}
+.settingLink {
+    position: relative;
+}
+.settingImg{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: -60px;
+    right: -90px;
+}

@@ -1,0 +1,24 @@
+.Page1MainSection1 {
+    margin: 20px 0px;
+}
+
+.Page1MainSection1__general {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section1__box {
+    background-color: #22B152;
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 500px; */
+    height: 170px;
+    transition: 0.5s all ease;
+    color: #fff;
+}
+
+.section1__box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 5px #22B152;
+}

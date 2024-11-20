@@ -1,0 +1,18 @@
+.section4__general{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section4__box1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section4__box1 img{
+    width: 500px;
+}
+.section4__box1 span{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

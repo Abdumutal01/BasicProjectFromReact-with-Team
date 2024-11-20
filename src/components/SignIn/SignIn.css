@@ -1,0 +1,15 @@
+.signIn__general {
+    padding: 16px 61px 60px;
+    width: 687px;
+    border-radius: 10px;
+    background: #169541;
+    border: 1px solid #1AD079;
+}
+
+.signIn__form {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 20px;
+    justify-content: center;
+}

@@ -1,0 +1,45 @@
+.page5 {
+    margin: 25px 0px 75px;
+}
+
+.page5__box1 {
+    padding: 46px 28px;
+    background: #169541;
+    border-radius: 20px;
+}
+
+.page5__title span {
+    font-weight: 700;
+}
+
+.page5__title {
+    color: #FFFFFF;
+    font-family: Anek Odia;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50.4px;
+
+}
+
+.page5__title2,
+.page5__title3 {
+    margin: 50px 0px;
+    color: #169541;
+    font-family: "Anek Odia";
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50.4px;
+}
+
+.page5__title3 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.page5__texts {
+    color: #575757;
+    font-family:" Anek Odia";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 42px;
+}

@@ -1,0 +1,151 @@
+.hero {
+    padding: 8px 0px;
+}
+
+.hero__general {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero__logoBox {
+    display: flex;
+    align-items: center;
+}
+
+.hero__logoTitle {
+    color: #03E04E;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Inter";
+}
+
+.hero__logoTitle span {
+    color: #FFC107;
+}
+
+.hero__logoText {
+    font-size: 15px;
+    color: #7A7979;
+    font-weight: 800;
+    line-height: 18px;
+    font-family: "Inter";
+    text-transform: uppercase;
+}
+
+.hero__boxes {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 14px;
+}
+
+.hero__firseBoxes {
+    display: flex;
+    align-items: end;
+    padding-right: 14px;
+    flex-direction: column;
+    border-right: 5px solid #01792A8F;
+}
+
+.hero__btnBox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+
+.hero__liveBtn,
+.hero__lngBtn {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+
+}
+
+.hero__btnBoxes {
+    display: flex;
+    align-items: center;
+}
+
+.hero__liveBtn {
+    color: #E00303;
+    border: 3px solid #EB8383;
+    border-radius: 10px;
+}
+
+.hero__lngBtn,
+.hero__sortItem,
+.hero__listItem {
+    display: flex;
+    align-items: center;
+}
+
+.hero__lngBtn {
+    gap: 5px;
+    color: #BEB5B5;
+    border: 1.5px solid #00B9E5;
+    transition: all .4s ease-out;
+}
+
+.hero__lngBtn:active,
+.hero__lngBtn:hover ,
+.hero__lngBtn:focus {
+    color: #000000;
+}
+
+.hero__lngBtn:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.hero__lngBtn:nth-child(2) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.hero__lngBtnFlag {
+    width: 25px;
+
+}
+
+.hero__sortItem {
+    width: 315px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background: #E9E9E9;
+}
+
+.hero__sortItemInput {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 10px 0px;
+    background: transparent;
+}
+
+.hero__sortItemImg {
+    width: 25px;
+}
+
+.hero__listItem {
+    gap: 10px;
+    opacity: .5;
+}
+
+.hero__telImg {
+    width: 30px;
+}
+
+.hero__telLinks {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Inter';
+    line-height: 31px;
+}
